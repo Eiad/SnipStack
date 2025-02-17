@@ -1,7 +1,7 @@
 # ⚡️ SnipStack
 
 <div align="center">
-  <img src="public/og-image.jpg" alt="SnipStack Banner" width="1200px" />
+  <h1>Sinpstack</h1>
   <p align="center">A modern, curated collection of battle-tested code snippets for React, Next.js, TypeScript, and more.</p>
 </div>
 
