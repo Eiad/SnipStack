@@ -81,7 +81,7 @@ export default function Home() {
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                     placeholder="Find magic ✨"
-                    className="pl-9 pr-9 py-2.5 rounded-xl bg-white dark:bg-gray-800/50 border border-black/[.06] dark:border-white/[.06] focus:outline-none focus:ring-2 focus:ring-violet-500/20 w-[240px] text-sm transition-all duration-200 placeholder-gray-400"
+                    className="pl-9 pr-9 py-2.5 rounded-xl bg-white dark:bg-gray-800/50 border border-black/[.06] dark:border-white/[.06] focus:outline-none focus:ring-2 focus:ring-violet-500/20 w-[500px] text-sm transition-all duration-200 placeholder-gray-400"
                   />
                   {searchQuery && (
                     <div className="absolute right-3 -bottom-6 text-xs text-gray-500">
