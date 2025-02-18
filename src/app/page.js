@@ -57,9 +57,8 @@ export default function Home() {
                   <div className="flex flex-wrap gap-3 text-xs text-gray-500 dark:text-gray-400">
                     <span className="flex items-center gap-1.5 bg-green-500/10 dark:bg-green-500/20 px-2.5 py-1 rounded-full">
                       <span className="w-1.5 h-1.5 rounded-full bg-green-500/80" />
-                      Front End Developer
-                    </span>
-                    <span className="px-2.5 py-1 bg-gray-100 dark:bg-gray-800/50 rounded-full">8+ Years</span>
+                      Front End Development
+                    </span>                    
                     <span className="px-2.5 py-1 bg-gray-100 dark:bg-gray-800/50 rounded-full">Open Source</span>
                   </div>
                 </div>
