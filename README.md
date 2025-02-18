@@ -9,6 +9,8 @@
   <a href="https://i-ash.com">Website</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
   <a href="https://www.linkedin.com/in/ash-creates-tech/">LinkedIn</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+  <a href="https://sniptstack.vercel.app/">Live Demo ↗</a>
 </div>
 
 <br />
