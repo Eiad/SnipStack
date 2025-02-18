@@ -91,14 +91,6 @@ export default function Home() {
                   )}
                 </div>
               </div>
-              <a
-                href="https://github.com/yourusername/snippets"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-4 py-2.5 rounded-lg bg-gradient-to-r from-violet-600 to-cyan-600 dark:from-violet-500 dark:to-cyan-500 text-white text-sm font-medium hover:from-violet-700 hover:to-cyan-700 dark:hover:from-violet-600 dark:hover:to-cyan-600 transition-all duration-300 shadow-lg shadow-violet-500/10 hover:shadow-violet-500/20"
-              >
-                Share Your Magic ✨
-              </a>
             </div>
           </div>
         </div>
