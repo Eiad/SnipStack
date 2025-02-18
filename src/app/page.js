@@ -34,39 +34,39 @@ export default function Home() {
 
   return (
     <div className="grid grid-rows-[auto_1fr_auto] min-h-screen p-8 gap-8">
-      <header className="relative mb-4">
-        <div className="absolute inset-0 bg-gradient-to-r from-violet-100/30 via-fuchsia-100/30 to-cyan-100/30 dark:from-violet-950/30 dark:via-fuchsia-950/30 dark:to-cyan-950/30 rounded-xl blur-xl -z-10" />
-        <div className="relative overflow-hidden rounded-xl border border-black/[.08] dark:border-white/[.08] p-8">
-          <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-gradient-to-bl from-violet-200/20 to-transparent dark:from-violet-800/10" />
+      <header className="relative">
+        <div className="absolute inset-0 bg-gradient-to-r from-violet-500/5 via-fuchsia-500/5 to-cyan-500/5 dark:from-violet-500/10 dark:via-fuchsia-500/10 dark:to-cyan-500/10 rounded-2xl blur-2xl -z-10" />
+        
+        <div className="relative overflow-hidden rounded-2xl border border-black/[.06] dark:border-white/[.06] bg-white/50 dark:bg-black/20 backdrop-blur-xl">
+          <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-bl from-violet-500/10 via-fuchsia-500/5 to-transparent dark:from-violet-500/20" />
           
-          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
-            <div className="flex items-start gap-5">
-              <div className="p-3.5 bg-gradient-to-br from-violet-500/10 to-cyan-500/10 dark:from-violet-400/10 dark:to-cyan-400/10 rounded-lg border border-black/[.08] dark:border-white/[.08] backdrop-blur-sm">
-                <Code2 className="w-7 h-7 text-violet-600/90 dark:text-violet-400/90" />
-              </div>
-              <div>
-                <h1 className="text-3xl font-bold bg-gradient-to-r from-violet-600 via-fuchsia-600 to-cyan-600 dark:from-violet-400 dark:via-fuchsia-400 dark:to-cyan-400 bg-clip-text text-transparent mb-2">
-                  ⚡️ Ash SnipStack
-                </h1>
-                <p className="text-base text-gray-600 dark:text-gray-400 max-w-md mb-2">
-                  Discover a curated collection of battle-tested code snippets for React, Next.js, TypeScript, and more. Each snippet is crafted with best practices and real-world experience.
-                </p>
-                <div className="flex gap-3 text-sm text-gray-500 dark:text-gray-400">
-                  <span className="flex items-center gap-1">
-                    <span className="w-2 h-2 rounded-full bg-green-500/80" />
-                    Front End Developer
-                  </span>
-                  <span>•</span>
-                  <span>8+ Years</span>
-                  <span>•</span>
-                  <span>Open Source</span>
+          <div className="px-8 py-6">
+            <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+              <div className="flex items-start gap-5">
+                <div className="p-3 bg-gradient-to-br from-violet-500/10 to-cyan-500/10 dark:from-violet-400/20 dark:to-cyan-400/20 rounded-xl border border-black/[.06] dark:border-white/[.06] backdrop-blur-sm">
+                  <Code2 className="w-6 h-6 text-violet-600 dark:text-violet-400" />
+                </div>
+                
+                <div>
+                  <h1 className="text-2xl font-bold bg-gradient-to-r from-violet-600 via-fuchsia-600 to-cyan-600 dark:from-violet-400 dark:via-fuchsia-400 dark:to-cyan-400 bg-clip-text text-transparent mb-2">
+                    ⚡️ SnipStack ⚡️ 
+                  </h1>
+                  <p className="text-sm text-gray-600 dark:text-gray-400 max-w-xl mb-3">
+                    Discover a curated collection of battle-tested code snippets for React, Next.js, TypeScript, and more. Each snippet is crafted with best practices and real-world experience.
+                  </p>
+                  <div className="flex flex-wrap gap-3 text-xs text-gray-500 dark:text-gray-400">
+                    <span className="flex items-center gap-1.5 bg-green-500/10 dark:bg-green-500/20 px-2.5 py-1 rounded-full">
+                      <span className="w-1.5 h-1.5 rounded-full bg-green-500/80" />
+                      Front End Developer
+                    </span>
+                    <span className="px-2.5 py-1 bg-gray-100 dark:bg-gray-800/50 rounded-full">8+ Years</span>
+                    <span className="px-2.5 py-1 bg-gray-100 dark:bg-gray-800/50 rounded-full">Open Source</span>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div className="flex items-center gap-4 self-end md:self-auto">
-              <div className="relative group">
-                <div className="absolute inset-0 bg-gradient-to-r from-violet-500/10 to-cyan-500/10 dark:from-violet-400/10 dark:to-cyan-400/10 rounded-lg blur opacity-0 group-hover:opacity-100 transition-opacity" />
+              <div className="relative group self-start md:self-center">
+                <div className="absolute inset-0 bg-gradient-to-r from-violet-500/10 to-cyan-500/10 dark:from-violet-400/20 dark:to-cyan-400/20 rounded-xl blur opacity-0 group-hover:opacity-100 transition-opacity" />
                 <div className="relative">
                   <Search className="w-4 h-4 absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
                   {searchQuery && (
@@ -82,7 +82,7 @@ export default function Home() {
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                     placeholder="Find magic ✨"
-                    className="pl-9 pr-9 py-2.5 rounded-lg bg-black/[.03] dark:bg-white/[.03] border border-black/[.08] dark:border-white/[.08] focus:outline-none focus:ring-2 focus:ring-violet-500/20 w-[220px] text-sm transition-all duration-200 placeholder-gray-400"
+                    className="pl-9 pr-9 py-2.5 rounded-xl bg-white dark:bg-gray-800/50 border border-black/[.06] dark:border-white/[.06] focus:outline-none focus:ring-2 focus:ring-violet-500/20 w-[240px] text-sm transition-all duration-200 placeholder-gray-400"
                   />
                   {searchQuery && (
                     <div className="absolute right-3 -bottom-6 text-xs text-gray-500">
